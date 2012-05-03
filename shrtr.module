@@ -12,6 +12,7 @@ function shrtr_permission() {
  */
 function shrtr_menu() {
   $items['admin/config/content/shrtr/urls'] = array(
+    // haho
     'title' => 'Shrtr',
     'page callback' => 'drupal_get_form',
     'page arguments' => array('shrtr_urls_admin'),
